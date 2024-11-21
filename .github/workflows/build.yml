@@ -131,6 +131,13 @@ jobs:
           ref: csgo
           path: hl2sdk-csgo
 
+      - name: Checking out hl2sdk-hl2dm
+        uses: actions/checkout@v4
+        with:
+          repository: alliedmodders/hl2sdk
+          ref: hl2dm
+          path: hl2sdk-hl2dm
+
       - name: Checking out own repository
         uses: actions/checkout@v4
         with:
